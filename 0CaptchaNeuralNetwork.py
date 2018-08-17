@@ -5,7 +5,6 @@ import math
 import os
 from os.path import join
 import random
-#from skimage import measure
 #import pickle
 
 import Neural_Network
