@@ -1,14 +1,12 @@
 import numpy as np
 from PIL import Image
-import timeit
 import math
-import cv2
+#import cv2
 import os
 from os.path import join
 import random
-from skimage import measure
-import pickle
-import pyautogui
+#from skimage import measure
+#import pickle
 
 import Neural_Network
 import Data_Creation
