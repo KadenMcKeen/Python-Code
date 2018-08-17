@@ -339,10 +339,10 @@ if mode == 2:
                 print("Training on {0} images".format(len(trainImages)))
                 h_nodes = 40
                 print("Hidden layer nodes: {0}".format(h_nodes))
-                print("Starting Alpha: {0}".format(trial[0]))
-                print("Starting Eta: {0}".format(trial[1]))
 
         for trial in test_try:
+            print("Starting Alpha: {0}".format(trial[0]))
+            print("Starting Eta: {0}\n\n".format(trial[1]))
             correct = 0
             incorrect = 0
             no_guess = 0
